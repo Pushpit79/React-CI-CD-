@@ -1,6 +1,6 @@
 FROM node
 
-# set working directory
+# set working directory , creating the new directory
 RUN mkdir /usr/src/app
 #copy all files from current directory to docker
 COPY . /usr/src/app

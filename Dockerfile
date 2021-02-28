@@ -10,6 +10,7 @@ WORKDIR /usr/src/app
 # add '/usr/src/app/node_modules/.bin" to $PATH
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
+EXPOSE 3000
 # install and cache app dependencies
 RUN yarn
 
